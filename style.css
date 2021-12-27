@@ -39,6 +39,9 @@ display: none;
     }
    
 }
+.btnt button{
+    display: none;
+}
 @media(max-width:600px){
     .btnt button{
     bottom: 0;
