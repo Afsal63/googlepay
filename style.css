@@ -22,14 +22,25 @@
     overflow-y: hidden;
     
 }
+.btnl ,button{
+    color: white;
+    background-color: rgb(19, 115, 204);
+    
+    border:none;
+}
 @media(max-width:1224px){
     .forbt{
         display: none;
     }
+    @media(max-width: 600px){
+        .btntl button{
+display: none;
+        }
+    }
    
 }
 @media(max-width:600px){
-    .btn {
+    .btnt button{
     bottom: 0;
     display: block;
     left: 0;
@@ -37,6 +48,7 @@
     position: fixed;
     width: 100%;
     z-index: 10;
+    color: #fff;
     }
 }
 .bgimg{
@@ -71,14 +83,18 @@
     width: 9rem;
 }
 .hoty{
-    margin-top: 2%;
-   height: 2;
-   height: 20rem;
+ 
+   margin: auto;
+   
    background-repeat: no-repeat;
 background-image: url(gpay2.webp);
-background-size: cover;
+background-size: 100%;
     
 }
-.hoty .imgg{
-    height: 20rem;
+.imgg{
+width:20%;
+}
+.slide{
+    background-color: rgb(255, 255, 255);
+  justify-content: space-between;
 }
